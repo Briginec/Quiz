@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#answers-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.answer-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+}
+
+.hide {
+    display: none;
+}
+
+.correct {
+    background-color: rgb(0, 90, 0);
+    color: white;
+}
+
+.wrong {
+    background-color: rgb(189, 0, 0);
+    color: white;
+}
+
+#start-btn,
+#restart-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+label {
+    color: white;
+}
+span {
+    color: white;
+}
+
+#question-text {
+    color: white;
+}
